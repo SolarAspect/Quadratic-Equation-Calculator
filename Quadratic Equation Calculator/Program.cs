@@ -4,13 +4,6 @@ public class Program
 {
     public static string CalculateQuadratic(double a, double b, double c)
     {
-        /* Formula:
-         * (-b +- sqrt(b^2 - 4ac)) / (2a)
-         * Tests for positive discriminants: 
-         * 4, 7, 3 IT WORKED
-         * Test for non positive discriminants:
-         * 1, -3, 10 TESTING
-         */
         double discriminant = Math.Pow(b, 2) - (4 * a * c);
         
         // Solving for real solutions, test - 4ac area 
@@ -52,7 +45,7 @@ public class Program
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("Welcome to version 3 of the Quadratic Equation Calculator console app. This version is more focused on making the code more easily readable and reusable.");
         Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine("Instructions:\nThe following values for the quadratic function will be based on the function ax^2 + bx + c. \nEnter the values for a, b, and c as prompted.\nYou may need to simplify some fractional solutions as necesssary. ");
+        Console.WriteLine("Instructions:\nThe following values for the quadratic function will be based on the function ax^2 + bx + c. \nEnter the values for a, b, and c as prompted.\nYou may need to simplify some fractional solutions as necesssary.");
 
 
         // Calculator loop
