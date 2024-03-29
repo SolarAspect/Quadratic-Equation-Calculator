@@ -2,6 +2,7 @@
 
 public class Program
 {
+    // Quadratic Equation Calculation
     public static string CalculateQuadratic(double a, double b, double c)
     {
         double discriminant = Math.Pow(b, 2) - (4 * a * c);
